@@ -11,13 +11,26 @@
 	<!--link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'-->
 	<link rel="stylesheet" href="./bower_components/angular-material/angular-material.css"/>
 	<link rel="stylesheet" href="assets/app.css"/>
-
+	<link rel="stylesheet" href="assets/css/account/account.css"/>
 </head>
 
 <body id="ttadag-service" ng-app="ttadag-service-app">
 
 <div class="containers">
-	<div class="container-section" ng-view></div>
+
+	<img class="ttadag-bg" src="/assets/images/img_bg_login.png"/>
+	<div class="container">
+		<div class="header">
+			<button class="md-button"><a href="#/account/signIn">로그인</a></button><button class="md-button"><a href="#/account/signUp">회원가입</a></button>
+			<!--button class="md-button" ng-click="signIn()">로그인</button><button class="md-button" ng-click="signUp()">회원가입</button-->
+
+		</div>
+
+		<div class="container-section" ng-view></div>
+	</div>
+
+
+
 </div>
 <script src="./bower_components/angular/angular.js"></script>
 <script src="./bower_components/angular-animate/angular-animate.js"></script>

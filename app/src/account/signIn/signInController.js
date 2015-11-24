@@ -1,7 +1,3 @@
-app.controller('signUpController',['$scope', function($scope, $http, $routeParams, $location) {
-	$scope.accountSignUp = function(){
-		//$location.url('/account/singIn');
-		console.log('signInController');
-	};
-
+app.controller('signInController',['$scope', function($scope, $http, $routeParams, $location) {
+	console.log('signInController');
 }]);
