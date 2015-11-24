@@ -1,0 +1,38 @@
+/** el reset */
+fieldset{border:0;}
+label, legend{display: none;}
+hr{border: 0;border-top: 1px solid #EBEBEC;}
+
+
+/** 다시 정리되어...*/
+.header{background: #242133;color:#ffffff;text-align: center;}
+.containers{height:100%;font-size:0;background: #242133;}
+.containers .ttadag-bg{width:100%;}
+.containers .dim-overlay {transition: opacity 450ms;position: absolute;top: 0;bottom: 0;left: 0;right: 0;background-color: rgba(33,33,33,1.0);z-index: 69;opacity: 0.3;}
+.containers .message-box {position: absolute;left: 0;right: 0;bottom: 0;padding-bottom:10%;z-index: 70;background:#ffffff;font-size: 16px;text-align: center;}
+.containers .message-box .message-btn-area{text-align: right;}
+.containers .message-box .message-list{margin: 0 10%;}
+.containers .message-box .message-list p{margin: 0;}
+.containers .message-box .message-list .txt-message img{width:25%;}
+.containers .message-box .message-box-close-btn{width:30px;height:30px;background: url('../../assets/images/img_btn_close.png') center right no-repeat;padding:0;}
+.containers .message-box .email-btn{border-radius:25px;margin: 0;padding: 0 20px 0 40px;background: #EAE9F5 url('../../assets/images/img_bullet_arrow_02.png') no-repeat 15px center;}
+.containers .message-box button{font-size:16px;}
+.containers .container{position: absolute;top: 0;width: 100%;height:100%;}
+/*.containers .container{height:100%;max-width:750px;margin:0 auto;background: url('/assets/images/img_bg_login.png') no-repeat;background-size: 100%;}*/
+.containers .container .container-section{padding: 18% 10% 0 10%;text-align: center;}
+.containers .container .tit-txt-style{font-size:16px;color:#ffffff;}
+.containers .container .tit-txt-style h1{margin:0; padding:0;}
+.containers .container .input-group{margin: 0;padding: 10% 0 0 0;font-size:18px;}
+.containers .container .input-group .input-item{padding:10% 0 0 0;}
+.containers .container .input-group input {width:100%;border: 0;border-bottom: 1px solid #4F6045;background: none;color:#DDE2E3;}
+.containers .container .input-group .ok{background: url('../../assets/images/img_icon_ok.png') right center no-repeat;background-size: 15px;}
+.containers .container .input-group .wrong{background: url('../../assets/images/img_icon_wrong.png') right center no-repeat;background-size: 15px;}
+.containers .container .change-state .text-btn-area{margin-top:2%;text-align: right;}
+.containers .container .change-state .text-btn{margin:0;padding-left: 20px; padding-right:0;background: url('../../assets/images/img_bullet_arrow.png') no-repeat left center;}
+.containers .container .change-state button{color:#ffffff;}
+.containers .container .change-state .active-btn-area button{width:100%;margin:9% 0 0 0;padding:0;border-radius:0;background: #9475F6;line-height:2.3;font-size:18px;font-weight:bold;}
+.containers .container .change-state .active-btn-area .fb-btn{background:#3A589E;}
+.containers .container .change-state .active-btn-area .fb-btn img{width:80px;}
+.containers .container .change-state .text-agree{display: inline-block;width: 100%;margin: 10% 0 0 0;padding: 0 0 0 30px;;background: url('../../assets/images/img_check_disable.png') left center no-repeat;text-align: left;}
+.containers .container .change-state .company-name{display: block;margin-top: 18%;font-size:20px;color:#A9A7AB;font-style: normal;}
+.containers .container .change-state .company-name img{width:35%;}
