@@ -2,8 +2,8 @@ var app = angular.module('ttadag-service-app',['ngRoute']);
 app.config(function($routeProvider) {
 	$routeProvider
 		.when('/', {
-			controller : 'app.module.js',
-			templateUrl : 'index.html'
+			controller : 'appModuleController',
+			templateUrl : '/src/introLoading/introLoadingView.html'
 		})
 		.when('/account/signIn', {
 			controller : 'signInController',
