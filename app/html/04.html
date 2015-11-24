@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>ttadag!! </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../bower_components/angular-material/angular-material.css"/>
+	<link rel="stylesheet" href="../assets/app.css"/>
+	<style type="text/css">
+		/**
+		 * Hide when Angular is not yet loaded and initialized
+		 */
+		[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+			display: none !important;
+		}
+	</style>
+	<link rel="stylesheet" href="../assets/css/account/account.css"/>
+</head>
+
+<body id="ttadag-service">
+<div class="containers">
+
+	<img class="ttadag-bg" src="../assets/images/img_bg_login.png"/>
+	<div class="container">
+		<div class="header">
+			<button class="md-button">로그인</button><button class="md-button">회원가입</button>
+		</div>
+
+		<div class="container-section">
+			<div class="tit-txt-style">
+				<h1>
+					Welcome to<br/>123456!
+				</h1>
+			</div>
+			<fieldset class="input-group">
+				<legend>로그인</legend>
+				<div class="input-item">
+					<label for="user_email">email</label>
+					<input type="email" id="user_email" class="ok" name="user_email" placeholder="이메일" class="ok"/>
+				</div>
+				<div class="input-item">
+					<label for="user_password">email</label>
+					<input type="password" id="user_password" name="user_password" placeholder="비밀번호" class="wrong"/>
+				</div>
+				<div class="input-item">
+					<label for="user_password_done">email</label>
+					<input type="password" id="user_password_done" name="user_password_done" placeholder="비밀번호 확인"/>
+				</div>
+				<div class="input-item">
+					<label for="user_nickname">닉네임</label>
+					<input type="password" id="user_nickname" name="user_nickname" placeholder="닉네임 (닉네임은 수정 가능합니다)"/>
+				</div>
+			</fieldset>
+
+
+			<div class="change-state">
+				<div class="text-btn-area">
+					<!--button class="md-button text-btn">비밀번호 재설정</button-->
+					<button class="md-button text-agree">약관 및 개인정보 수집/이용에 동의합니다.</button>
+				</div>
+				<div class="active-btn-area">
+					<button class="md-button">가입하기</button>
+					<!--button class="md-button fb-btn"><img src="image/img_fb_logo.png"/>으로 로그인</button-->
+				</div>
+				<div class="company-name" style="margin-top:8%;"><img src="../assets/images/img_ttadag_logo.png"></div>
+			</div>
+		</div>
+		<!--div class="footer"></div-->
+	</div>
+
+
+</div>
+</body>
+</html>
+
