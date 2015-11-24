@@ -25,8 +25,8 @@ hr{border: 0;border-top: 1px solid #EBEBEC;}
 .containers .container .input-group{margin: 0;padding: 10% 0 0 0;font-size:18px;}
 .containers .container .input-group .input-item{padding:10% 0 0 0;}
 .containers .container .input-group input {width:100%;border: 0;border-bottom: 1px solid #4F6045;background: none;color:#DDE2E3;}
-.containers .container .input-group .ok{background: url('../../../assets/images/img_icon_ok.png') right center no-repeat;background-size: 15px;}
-.containers .container .input-group .wrong{background: url('../../../assets/images/img_icon_wrong.png') right center no-repeat;background-size: 15px;}
+.containers .container .input-group .success{background: url('../../../assets/images/img_icon_ok.png') right center no-repeat;background-size: 15px;}
+.containers .container .input-group .fail{background: url('../../../assets/images/img_icon_wrong.png') right center no-repeat;background-size: 15px;}
 .containers .container .change-state .text-btn-area{margin-top:2%;text-align: right;}
 .containers .container .change-state .text-btn{margin:0;padding-left: 20px; padding-right:0;background: url('../../../assets/images/img_bullet_arrow.png') no-repeat left center;}
 .containers .container .change-state button{color:#ffffff;}
