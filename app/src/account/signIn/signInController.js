@@ -1,4 +1,4 @@
-app.controller('signInController',['$scope', function($scope) {
+app.controller('signInController',['$scope', '$location', function($scope, $location) {
 	$scope.resetPasswd = function() {
 		alert('신규 비밀번호를 적용 할 수 있도록 메일을 보냈습니다.');
 	};
@@ -6,8 +6,12 @@ app.controller('signInController',['$scope', function($scope) {
 		console.log(user);
 		alert('login try...');
 	}
-	$scope.FBSignIn = function() {
-		alert('페이스북 로그인~');
+	$scope.FBSignIn = function(user) {
+
+		alert('페이스북 로그인~ 일단 회원가입으로 보냄..');
+		//user.user_email
+		//user.user_password
+		$location.url('/account/signUp');
 	}
 
 }])
