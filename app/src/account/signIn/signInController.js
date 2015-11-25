@@ -5,6 +5,7 @@ app.controller('signInController',['$scope', '$location', function($scope, $loca
 	$scope.signIn = function(user) {
 		console.log(user);
 		alert('login try...');
+		$location.url('/account/signUp');
 	}
 	$scope.FBSignIn = function(user) {
 
@@ -12,6 +13,11 @@ app.controller('signInController',['$scope', '$location', function($scope, $loca
 		//user.user_email
 		//user.user_password
 		$location.url('/account/signUp');
+	}
+	$scope.accountCheck = function(info) {
+		if (!!info) {
+			$location.url('/account/signUp');
+		}
 	}
 
 }])
