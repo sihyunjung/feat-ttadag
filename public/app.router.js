@@ -1,8 +1,11 @@
-var app = angular.module('ttadag-service-app',['app', 'ngRoute']);
+/**
+ * @description 모든 라우트 지정 및 설정
+ */
+
 app.config(function($routeProvider) {
 	$routeProvider
 		.when('/', {
-			controller : 'appModuleController',
-			templateUrl : '/src/introLoading/introLoadingView.html'
+			//controller : 'homeController',
+			//templateUrl : 'components/home/homeView.html'
 		});
 });
